@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid;
+}
