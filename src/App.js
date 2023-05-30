@@ -23,7 +23,7 @@ function calculateWinner(squares) {
 }
 
 export default function Board() {
-  const [squares, setSquares] = useState(Array(9).fill(""));
+  const [squares, setSquares] = useState(Array(9).fill(null));
   const [xIsNext, setXIsNext] = useState(true);
 
   const winner = calculateWinner(squares);
@@ -32,6 +32,10 @@ export default function Board() {
     status = "Winner: " + winner;
   } else {
     status = "Next player: " + (xIsNext ? "X" : "O");
+  }
+
+  if (squares.every((el) => el !== null) && !winner) {
+    status = "Tied! try again!";
   }
 
   function handleClick(i) {
@@ -48,6 +52,10 @@ export default function Board() {
     setSquares(nextSquares);
     setXIsNext(!xIsNext);
   }
+
+  const handleReset = () => {
+    setSquares(Array(9).fill(null));
+  };
 
   return (
     <>
@@ -94,6 +102,7 @@ export default function Board() {
           </tr>
         </table>
       </div>
+      <button onClick={() => handleReset()}>Reset</button>
     </>
   );
 }
