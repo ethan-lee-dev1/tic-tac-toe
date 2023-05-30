@@ -33,7 +33,7 @@ h2 {
 table {
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(lightgreen, cyan);
+  background-image: linear-gradient(lightgreen, rgb(41, 255, 70));
 }
 
 h3 {
