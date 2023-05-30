@@ -51,8 +51,8 @@ export default function Board() {
 
   return (
     <>
-      <h1>TicTacToe game by</h1>
-      <h2>Karina and Ethan</h2>
+      <h1>Tic-Tac-Toe</h1>
+      <h2>Welcome Players</h2>
       <h3>{status}</h3>
       <div>
         <table>

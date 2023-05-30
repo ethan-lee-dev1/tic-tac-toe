@@ -6,3 +6,38 @@
   text-align: center;
   font-size: large;
 }
+
+body{
+  background-color: lightblue ;
+}
+
+
+h1{
+  color:blue ;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+  color:#00BFFE ;
+  text-align: center;
+  margin-top: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+margin-left: auto;
+margin-right: auto;
+background-image: linear-gradient(lightgreen, cyan);
+
+
+}
+
+h3{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
