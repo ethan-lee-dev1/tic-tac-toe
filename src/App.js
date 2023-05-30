@@ -102,7 +102,9 @@ export default function Board() {
           </tr>
         </table>
       </div>
+      <div className= "Reset">
       <button onClick={() => handleReset()}>Reset</button>
+      </div>
     </>
   );
 }

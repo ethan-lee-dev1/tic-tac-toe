@@ -14,17 +14,20 @@ body{
 
 h1{
   color:blue ;
+  text-shadow: 2px 2px 4px;
   text-align: center;
   margin-bottom: 0px;
-  font-size: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  
+  font-family: 'Bubblegum Sans';font-size: 80px;
 }
 
 h2{
-  color:#00BFFE ;
+  color:#4DB3E4 ;
   text-align: center;
+  font-weight: bold;
   margin-top: 5px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Bubblegum Sans';font-size: 50px;
 }
 
 table{
@@ -37,7 +40,23 @@ background-image: linear-gradient(lightgreen, cyan);
 
 h3{
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Bubblegum Sans';font-size: 22px;
+
 }
 
+.Reset{
+text-align: center;
+margin-top: 15px;
+
+}
+
+button{
+  background-color:greenyellow;
+  border-radius: 20px;
+  font-family: 'Bubblegum Sans';font-size: 22px;
+}
+
+.square{
+  background-image: linear-gradient(#FF6BB4, #FF027E);
+}
 
